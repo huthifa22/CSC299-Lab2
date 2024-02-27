@@ -21,7 +21,10 @@ public class Lab2{
         System.out.println("250(to base 18): "+baseConvert(250,18, hexMap, new StringBuilder()));
         System.out.println("2023(to base 8): "+baseConvert(2023,8, hexMap, new StringBuilder()));
         System.out.println("8921(to base 16): "+baseConvert(8921,16, hexMap, new StringBuilder()));
-        System.out.println("5003(to base 16): "+baseConvert(5003,16, hexMap, new StringBuilder()));        
+        System.out.println("5003(to base 16): "+baseConvert(5003,16, hexMap, new StringBuilder()));     
+        System.out.println("5003(to base 5): "+baseConvert(5003,5, hexMap, new StringBuilder())); 
+        System.out.println("5003(to base 20): "+baseConvert(5003,20, hexMap, new StringBuilder()));        
+        System.out.println("4003(to base 7): "+baseConvert(4003,7, hexMap, new StringBuilder()));     
         
     }
     public static StringBuilder baseConvert(int input, int base,  Map<Integer, Character> hexMap, StringBuilder result){
