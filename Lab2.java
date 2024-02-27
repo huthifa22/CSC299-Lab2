@@ -16,7 +16,7 @@ public class Lab2{
         System.out.println("2024(to base 2): " + baseConvert(2024, 2, hexMap, new StringBuilder()));
         System.out.println("2024(to base 8): "+baseConvert(2024,8, hexMap, new StringBuilder()));
         System.out.println("2024(to base 16): "+baseConvert(2024,16, hexMap, new StringBuilder()));
-        System.out.println("1024(to base 12: "+baseConvert(1024,12, hexMap, new StringBuilder()));
+        System.out.println("1024(to base 12): "+baseConvert(1024,12, hexMap, new StringBuilder()));
         System.out.println("-155(to base 4): "+baseConvert(-155,4, hexMap, new StringBuilder()));
         System.out.println("250(to base 18): "+baseConvert(250,18, hexMap, new StringBuilder()));
         System.out.println("2023(to base 8): "+baseConvert(2023,8, hexMap, new StringBuilder()));
