@@ -13,18 +13,18 @@ public class Lab2{
         hexMap.put(15,'F');
       
         
-        System.out.println("2024(to base 2): " + baseConvert(2024, 2, hexMap, new StringBuilder()));
-        System.out.println("2024(to base 8): "+baseConvert(2024,8, hexMap, new StringBuilder()));
-        System.out.println("2024(to base 16): "+baseConvert(2024,16, hexMap, new StringBuilder()));
-        System.out.println("1024(to base 12): "+baseConvert(1024,12, hexMap, new StringBuilder()));
-        System.out.println("-155(to base 4): "+baseConvert(-155,4, hexMap, new StringBuilder()));
-        System.out.println("250(to base 18): "+baseConvert(250,18, hexMap, new StringBuilder()));
-        System.out.println("2023(to base 8): "+baseConvert(2023,8, hexMap, new StringBuilder()));
-        System.out.println("8921(to base 16): "+baseConvert(8921,16, hexMap, new StringBuilder()));
-        System.out.println("5003(to base 16): "+baseConvert(5003,16, hexMap, new StringBuilder()));     
-        System.out.println("5003(to base 5): "+baseConvert(5003,5, hexMap, new StringBuilder())); 
-        System.out.println("5003(to base 20): "+baseConvert(5003,20, hexMap, new StringBuilder()));        
-        System.out.println("4003(to base 7): "+baseConvert(4003,7, hexMap, new StringBuilder()));     
+        System.out.printf("The equivalent base-2 value of decimal 2024 is: %s\n", baseConvert(2024, 2, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-8 value of decimal 2024 is: %s\n", baseConvert(2024,8, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-16 value of decimal 2024 is: %s\n", baseConvert(2024,16, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-12 value of decimal 1024 is: %s\n", baseConvert(1024,12, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-4 value of decimal -155 is: %s\n", baseConvert(-155,4, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-18 value of decimal 250 is: %s\n", baseConvert(250,18, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-8 value of decimal 2023 is: %s\n", baseConvert(2023,8, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-16 value of decimal 8921 is: %s\n", baseConvert(8921,16, hexMap, new StringBuilder()));
+        System.out.printf("The equivalent base-16 value of decimal 5003 is: %s\n", baseConvert(5003,16, hexMap, new StringBuilder()));     
+        System.out.printf("The equivalent base-5 value of decimal 5003 is: %s\n", baseConvert(5003,5, hexMap, new StringBuilder())); 
+        System.out.printf("The equivalent base-20 value of decimal 5003 is: %s\n", baseConvert(5003,20, hexMap, new StringBuilder()));        
+        System.out.printf("The equivalent base-7 value of decimal 4003 is: %s\n", baseConvert(4003,7, hexMap, new StringBuilder()));   
         
     }
     public static StringBuilder baseConvert(int input, int base,  Map<Integer, Character> hexMap, StringBuilder result){
